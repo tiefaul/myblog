@@ -1,11 +1,12 @@
 github_users:
-  - tiefaul
-
-repo_description_lines_max: 2
+  - torvalds
+  - alshedivat
 
 github_repos:
-  - tiefaul/Regex_Scraper_Project
-  - tiefaul/Calculator_Project
-  - tiefaul/proxmox_monitorapi
-  - tiefaul/todo_website
-  - tiefaul/raft_project
+  - alshedivat/al-folio
+  - twbs/bootstrap
+  - jekyll/jekyll
+  - jquery/jquery
+  - FortAwesome/Font-Awesome
+  - jpswalsh/academicons
+  - mathjax/MathJax
