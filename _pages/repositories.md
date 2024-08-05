@@ -2,12 +2,14 @@
 layout: page
 permalink: /repositories/
 title: Repositories
-description: Welcome to the Repositories section of my website! Here, you'll find links to my public GitHub repositories, showcasing the projects I've worked on and the code I've developed.
+description: Welcome to the Repositories section of my website! Here, you'll find links to my public GitHub repositories, showcasing the projects I've created and the code I've developed, primarily in Python. As a beginner in coding, I'm excited to share my journey from novice to expert. I hope you enjoy following along as I learn, grow, and improve my skills in the world of programming.
 nav: true
 nav_order: 4
 ---
 
-## GitHub users
+## My GitHub Stats
+
+<br/>
 
 {% if site.data.repositories.github_users %}
 
@@ -16,6 +18,8 @@ nav_order: 4
     {% include repository/repo_user.liquid username=user %}
   {% endfor %}
 </div>
+
+<br/>
 
 {% if site.repo_trophies.enabled %}
 {% for user in site.data.repositories.github_users %}
@@ -27,13 +31,19 @@ nav_order: 4
   {% include repository/repo_trophies.liquid username=user %}
   </div>
 
+<br/>
+
 ---
 
 {% endfor %}
 {% endif %}
 {% endif %}
 
-## GitHub Repositories
+<br/>
+
+## Public GitHub Repositories
+
+<br/>
 
 {% if site.data.repositories.github_repos %}
 
