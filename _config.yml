@@ -242,7 +242,16 @@ exclude:
   - lighthouse_results/
   - package.json
   - package-lock.json
+  # blocked pages
   - _pages/about_einstein.md
+  - _pages/publications
+  - _pages/teaching
+  - _pages/projects
+  - _pages/profiles
+  - _pages/dropdown
+  # blocked folders
+  - _projects
+  # ----end of blocks----
   - purgecss.config.js
   - README.md
   - readme_preview/

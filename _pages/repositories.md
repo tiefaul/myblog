@@ -17,8 +17,6 @@ nav_order: 4
   {% endfor %}
 </div>
 
----
-
 {% if site.repo_trophies.enabled %}
 {% for user in site.data.repositories.github_users %}
 {% if site.data.repositories.github_users.size > 1 %}
