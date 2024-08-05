@@ -242,8 +242,9 @@ exclude:
   - lighthouse_results/
   - package.json
   - package-lock.json
-  # blocked pages
   - _pages/about_einstein.md
+  # ----start of blocks----
+  # blocked pages
   - _pages/publications
   - _pages/teaching
   - _pages/projects
@@ -643,12 +644,12 @@ jsonresume:
   - basics
   - work
   - education
-  - publications
-  - projects
-  - volunteer
-  - awards
+  # - publications
+  # - projects
+  # - volunteer
+  # - awards
   - certificates
   - skills
-  - languages
+  # - languages
   - interests
-  - references
+  # - references
