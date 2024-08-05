@@ -5,8 +5,8 @@
     "image": "",
     "email": "tylerfaulhaber@gmail.com",
     "phone": "",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": " Tyler—a tech-savvy former Army IT Specialist who loves basketball, swimming, and working on his homelab. When he is not pretending to be good at golf or exploring the world, he's diving into IT projects",
+    "url": "https://example.com",
+    "summary": " Tyler—a tech-savvy former Army IT Specialist who loves basketball, swimming, and working on his homelab. When he is not pretending to be good at golf or exploring the world, he's diving into IT projects.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -129,16 +129,55 @@
   ],
   "skills": [
     {
-      "name": "Physics",
+      "name": "Cybersecurity",
       "level": "Master",
       "icon": "fa-solid fa-hashtag",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Firewall",
+        "Data Protection",
+        "Zero Trust",
+        "Cloud Security",
+        "Threat Detection",
+        "Intrusion Detection"
+      ]
+    },
+    {
+      "name": "Cloud Computing",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Virtualization",
+        "AWS",
+        "Azure",
+        "Serverless Computing",
+        "Disaster Recovery",
+        "Scalability"
+      ]
+    },
+    {
+      "name": "Networking",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "VPN",
+        "Wireless Networking",
+        "Network Monitoring",
+        "Routing and Switching",
+        "DHCP",
+        "DNS"
+      ]
+    },
+    {
+      "name": "Python",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Python Programming",
+        "Python Scripts",
+        "Automation",
+        "Data Analysis",
+        "Regex",
+        "Python Libraries"
       ]
     }
   ],
@@ -156,15 +195,15 @@
   ],
   "interests": [
     {
-      "name": "Physics",
+      "name": "Homelab",
       "icon": "fa-solid fa-tag",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Proxmox",
+        "Wireguard",
+        "Homepage",
+        "Pi-hole",
+        "NAS",
+        "Docker"
       ]
     }
   ],
