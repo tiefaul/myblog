@@ -6,7 +6,7 @@
     "email": "tylerfaulhaber@gmail.com",
     "phone": "",
     "url": "https://alshedivat.github.io/al-folio/",
-    "summary": " Tyler—a tech-savvy former Army IT Specialist who loves basketball, swimming, and working on his homelab. When I'm not pretending to be good at golf or exploring the world, I'm diving into IT projects",
+    "summary": " Tyler—a tech-savvy former Army IT Specialist who loves basketball, swimming, and working on his homelab. When he is not pretending to be good at golf or exploring the world, he's diving into IT projects",
     "location": {
       "address": "",
       "postalCode": "",
@@ -29,7 +29,7 @@
       "url": "https://www.goarmy.com/careers-and-jobs/signal-intelligence/locations-stats-frequencies/25b-information-technology-specialist",
       "startDate": "2019-09-12",
       "endDate": "2025-05-12",
-      "summary": "Working at Fort Campbell, KY. Conducting hardware upgrades and replacements to extend the lifespan and functionality of computer systems. Utilize imaging software to deploy and upgrade computers. Patch quarantined hardware, maintain IT infrastructure security. Run reports to ensure compliance within the company",
+      "summary": "Working at Fort Campbell, KY. Conducting hardware upgrades and replacements to extend the lifespan and functionality of computer systems. Utilize imaging software to deploy and upgrade computers. Patch quarantined hardware to maintain IT infrastructure security. Run reports to ensure compliance within the company",
       "highlights": []
     }
   ],
@@ -69,46 +69,39 @@
   ],
   "certificates": [
     {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
+      "name": "CompTIA A+",
+      "date": "2022-07-14",
+      "issuer": "CompTIA",
+      "url": "https://www.comptia.org/certifications/a",
+      "icon": "fa-solid fa-certificate"
     },
     {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
+      "name": "CompTIA Network+",
+      "date": "2023-04-08",
+      "issuer": "CompTIA",
+      "url": "https://www.comptia.org/certifications/network",
+      "icon": "fa-solid fa-certificate"
     },
     {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
+      "name": "CompTIA Security+",
+      "date": "2022-01-20",
+      "issuer": "CompTIA",
+      "url": "https://www.comptia.org/certifications/security",
+      "icon": "fa-solid fa-certificate"
     },
     {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
+      "name": "CompTIA CySA+",
+      "date": "2024-05-24",
+      "issuer": "CompTIA",
+      "url": "https://www.comptia.org/certifications/cybersecurity-analyst",
+      "icon": "fa-solid fa-certificate"
     },
     {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
+      "name": "Azure Fundamentals",
+      "date": "2022-03-24",
+      "issuer": "Microsoft",
+      "url": "https://learn.microsoft.com/en-us/credentials/certifications/azure-fundamentals/?practice-assessment-type=certification",
+      "icon": "fa-solid fa-certificate"
     }
   ],
   "publications": [
