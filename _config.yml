@@ -244,13 +244,13 @@ exclude:
   - package-lock.json
   - _pages/about_einstein.md
   # ----start of blocks----
-  # blocked pages
+    # blocked pages
   - _pages/publications
   - _pages/teaching
   - _pages/projects
   - _pages/profiles
   - _pages/dropdown
-  # blocked folders
+    # blocked folders
   - _projects
   # ----end of blocks----
   - purgecss.config.js
