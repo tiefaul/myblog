@@ -251,6 +251,7 @@ exclude:
   - _pages/profiles
   - _pages/dropdown
     # blocked folders
+  - _news
   - _projects
   # ----end of blocks----
   - purgecss.config.js
@@ -314,8 +315,8 @@ jekyll-archives:
     tag: "/blog/tag/:name/"
     category: "/blog/category/:name/"
 
-display_tags: ["formatting", "images", "links", "math", "code", "blockquotes"] # these tags will be displayed on the front page of your blog
-display_categories: ["external-services"] # these categories will be displayed on the front page of your blog
+display_tags: ["jekyll", "self-hosting", "tutorial", "walkthrough"] # these tags will be displayed on the front page of your blog
+display_categories: [] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
