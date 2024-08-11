@@ -5,6 +5,13 @@ date: 2024-08-11 16:10:00
 description: Learning how to set up and host my own website using Jekyll.
 tags: hosting website
 categories: Jekyll
+toc:
+    - name: Why Jekyll?
+    - name: Integration with GitHub Pages
+    - name: The Appeal of Using WSL and Git
+    - name: Performance and Security
+    - name: Conclusion
+    - name: Links
 ---
 
 When I first decided to create my own personal website, I was faced with a common dilemma: which platform should I use? The obvious choice seemed to be website builders like Wix, Squarespace, and Weebly given there simplicity and popularity. However, as I explored my options, I found myself drawn to something more customizable and developer-friendly.... **Jekyll**.
