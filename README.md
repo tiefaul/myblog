@@ -1,5 +1,7 @@
 # al-folio
 
+> Please Note that I am not the original creator of everything you see here. Visit [alshedivat](https://github.com/alshedivat), as this is the page of the original creators. Thank you!
+
 <div align="center">
 
 [![Preview](readme_preview/al-folio-preview.png)](https://alshedivat.github.io/al-folio/)
