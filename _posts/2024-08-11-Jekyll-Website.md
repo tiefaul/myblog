@@ -44,7 +44,7 @@ Jekyll's static site generation also stood out to me for its performance and sec
 
 ## Conclusion
 
-In the end, Jekyll was the clear winner for me because it provided the perfect balance of flexibility, control, and learning potential. It is a platform that aligned with my passion for coding and understanding CI/CD pipelines, as well as heightening other skills. If you are looking for a powerful and developer-friendly way to build a website, I highly recommend giving Jekyll a try. Thank you for taking the time to reading my story, and I look forward to sharing more about my experiences and giving you all tutorials on how I manage to accomplish everything you see here and in future posts!
+In the end, Jekyll was the clear winner for me because it provided the perfect balance of flexibility, control, and learning potential. It is a platform that aligned with my passion for coding and understanding CI/CD pipelines, as well as heightening other skills. If you are looking for a powerful and developer-friendly way to build a website, I highly recommend giving Jekyll a try. Thank you for taking the time to read my story, and I look forward to sharing more about my experiences and giving you all tutorials on how I manage to accomplish everything you see here and in future posts!
 
 ---
 
