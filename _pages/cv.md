@@ -1,7 +1,7 @@
 ---
 layout: cv
 permalink: /cv/
-title: Curriculum Vitae
+title: Career Overview
 nav: true
 nav_order: 5
 cv_pdf: Information_Technology_Resume.pdf
