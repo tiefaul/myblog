@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://www.levitatecold.com/sitemap.xml
+Sitemap: https://www.levitatecold.com/myblog/sitemap.xml
