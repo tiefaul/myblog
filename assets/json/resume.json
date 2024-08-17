@@ -132,40 +132,19 @@
       "name": "Cybersecurity",
       "level": "Master",
       "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Firewall",
-        "Data Protection",
-        "Zero Trust",
-        "Cloud Security",
-        "Threat Detection",
-        "Intrusion Detection"
-      ]
+      "keywords": ["Firewall", "Data Protection", "Zero Trust", "Cloud Security", "Threat Detection", "Intrusion Detection"]
     },
     {
       "name": "Cloud Computing",
       "level": "Master",
       "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Virtualization",
-        "AWS",
-        "Azure",
-        "Serverless Computing",
-        "Disaster Recovery",
-        "Scalability"
-      ]
+      "keywords": ["Virtualization", "AWS", "Azure", "Serverless Computing", "Disaster Recovery", "Scalability"]
     },
     {
       "name": "Networking",
       "level": "Master",
       "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "VPN",
-        "Wireless Networking",
-        "Network Monitoring",
-        "Routing and Switching",
-        "DHCP",
-        "DNS"
-      ]
+      "keywords": ["VPN", "Wireless Networking", "Network Monitoring", "Routing and Switching", "DHCP", "DNS"]
     },
     {
       "name": "Python",
