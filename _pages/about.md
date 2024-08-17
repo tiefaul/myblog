@@ -12,11 +12,12 @@ profile:
   # <p>555 your office number</p>
   # <p>123 your address street</p>
   # <p>Your City, State 12345</p>
- 
+
 news: false # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
+
 Hello! I'm Tyler, an IT professional with a passion for technology and a love for exploration. I was born in Tennessee but spent most of my life in the sunny state of Florida. My journey in the field of Information Technology began during my active duty service in the Army from 2019 to 2025, where I served as a 25B, an Information Technology Specialist.
 
 During my time in the military, I had the incredible opportunity to travel across Europe and Asia, visiting seven different countries. These experiences not only broadened my horizons but also deepened my appreciation for different cultures and the world at large.
