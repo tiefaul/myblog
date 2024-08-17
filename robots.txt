@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://tiefaul.github.io/myblog/sitemap.xml
+Sitemap: https://www.levitatecold.com/sitemap.xml
