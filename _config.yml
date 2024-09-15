@@ -315,8 +315,8 @@ jekyll-archives:
     tag: "/blog/tag/:name/"
     category: "/blog/category/:name/"
 
-display_tags: ["website", "self-hosting", "hosting", "tutorial", "walkthrough"] # these tags will be displayed on the front page of your blog
-display_categories: [] # these categories will be displayed on the front page of your blog
+display_tags: ["website", "database", "hosting", "grafana", "walkthrough"] # these tags will be displayed on the front page of your blog
+display_categories: ["jekyll", "monitoring"] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
