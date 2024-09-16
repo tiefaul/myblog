@@ -44,8 +44,8 @@ services:
     networks:
       - monitoring_network # mount network
     volumes:
-      - ./conf:/usr/share/grafana/conf # mount server "conf" file to the container "conf" file, whatever changes are made to the server "conf" file are changed on the container "conf" file when retarted
-      - grafana-volume:/var/lib/grafana # mount grafna-volume
+      - ./conf:/usr/share/grafana/conf # mount server "conf" file to the container "conf" file, whatever changes are made to the server "conf" file are changed on the container "conf" file when restarted
+      - grafana-volume:/var/lib/grafana # mount Grafana-volume
 
   influxdb:
     image: influxdb
@@ -55,21 +55,21 @@ services:
       - 8086:8086
       - 8089:8089/udp
     networks:
-      - monitoring_network #mount network
+      - monitoring_network # mount network
     volumes:
       - influxdb-volume:/var/lib/influxdb # mount influxdb-volume
 
 networks:
   monitoring_network:
-    external: true # Use this when the network is already created using <docker network create "name">
+    external: true # Use this when the network is already created
 
 volumes:
   grafana-volume:
-    external: true # Use this when the network is already created using <docker volume create "name">
+    external: true # Use this when the network is already created
   influxdb-volume:
     external: true
 ```
-> Please note that the `./conf` volume on the grafana service was necessary for me because I needed to change the default port of 3000 to 3089 inside the `default.ini` file of the container. So if you do not need to change the port, use the recommended port option of 3000 for the grafana service and remove the `./conf` volume.
+> Please note that the `./conf` volume on the Grafana service was necessary for me because I needed to change the default port of 3000 to 3089 inside the `default.ini` file of the container. So if you do not need to change the port, use the recommended port option of 3000 for the Grafana service and remove the `./conf` volume.
 
 ---
 
@@ -95,10 +95,10 @@ You can use ```docker volume ls``` and ```docker network ls``` to list out your 
 
 # Testing your creations!
 
-Navigate to your containers. `<ip:8086>` for InfluxDB and `<ip:3000>` for Grafana. Unless you changed your ports like I did, then you should be good to go. I added all my services to my **Homepage** dashboard for easier navigation between all my services. I will make a post going over what Homepage is in a later post, but for now if you are interested, here is a GitHub link to [HomePage](https://github.com/gethomepage/homepage). Once inside your containers. Make sure you create a account in InfluxDB and the default username and password for Grafana is admin:admin. Once you are in your instances I highly recommend watching Christian Lempa's video [My new Proxmox Monitoring Tools: InfluxDB2 + Grafana](https://www.youtube.com/watch?v=f2eyVfCTLi0&t=403s) on what to do next. He goes over what I went through and MORE!
+Navigate to your containers. `<serverip:8086>` for InfluxDB and `<serverip:3000>` for Grafana. Unless you changed your ports like I did, then you should be good to go. I added all my services to my **Homepage** dashboard for easier navigation between all my services. I will make a post going over what Homepage is in a later post, but for now if you are interested, here is a GitHub link to [HomePage](https://github.com/gethomepage/homepage). Once inside your containers. Make sure you create a account in InfluxDB and the default username and password for Grafana is admin:admin. Once you are in your instances I highly recommend watching Christian Lempa's video [My new Proxmox Monitoring Tools: InfluxDB2 + Grafana](https://www.youtube.com/watch?v=f2eyVfCTLi0&t=403s) on what to do next. He goes over what I went through and MORE!
 
 ---
 
 # What should I do now?
 
-Just like you I was confused on how everything worked and what to do next. When watching Christian Lempa's video, I imported the [Proxmox Cluser [Flux]](https://grafana.com/grafana/dashboards/15356-proxmox-cluster-flux/) dashboard from the [Grafana website](https://grafana.com/), but I felt as if I wasn't learning anything from doing that, even though the dashboard is great and amazing and provides me with everything I want from a monitoring standpoint. My next objective in this learning journey is to create my own dashboard, learn a little bit of flux, and see how everything pans out. 
+Just like you I was confused on how everything worked and what to do next. When watching Christian Lempa's video, I imported the [Proxmox Cluster [Flux]](https://grafana.com/grafana/dashboards/15356-proxmox-cluster-flux/) dashboard from the [Grafana website](https://grafana.com/), but I felt as if I wasn't learning anything from doing that, even though the dashboard is great and amazing and provides me with everything I want from a monitoring standpoint. My next objective in this learning journey is to create my own dashboard, learn a little bit of flux, and see how everything pans out. 
