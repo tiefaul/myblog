@@ -21,7 +21,7 @@ After reading various documents, reddit post, videos, etc. I came to a conclusio
 Step 1:<br/>
 Create a directory to store the compose file.<br/>
 ```bash
-mkdir monitoring # use sudo if not already root
+mkdir monitoring
 ```
 Use the `ls` command to verify the directory was made.
 
@@ -32,7 +32,7 @@ touch compose.yaml
 ```
 
 Step 3:<br/>
-Use your favorite editor to edit the compose file. You can use the same yaml format as I did for this:
+Use your favorite editor to edit the compose file.
 ```yaml
 services:
   grafana:
@@ -65,7 +65,7 @@ networks:
 
 volumes:
   grafana-volume:
-    external: true # Use this when the network is already created
+    external: true # Use this when the volume is already created
   influxdb-volume:
     external: true
 ```
