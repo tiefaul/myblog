@@ -40,7 +40,7 @@ services:
     container_name: grafana
     restart: always
     ports:
-      - 3089:3089
+      - 3089:3089 # Left port is host, right port is container
     networks:
       - monitoring_network # mount network
     volumes:
@@ -52,7 +52,7 @@ services:
     container_name: influxdb
     restart: always
     ports:
-      - 8086:8086
+      - 8086:8086 
       - 8089:8089/udp
     networks:
       - monitoring_network # mount network
