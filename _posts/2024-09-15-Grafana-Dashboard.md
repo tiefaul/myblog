@@ -40,12 +40,12 @@ services:
     container_name: grafana
     restart: always
     ports:
-      - 3089:3089 # Left port is host, right port is container
+      - 3089:3089 # left port is host, right port is container
     networks:
       - monitoring_network # mount network
     volumes:
       - ./conf:/usr/share/grafana/conf # mount server "conf" file to the container "conf" file, whatever changes are made to the server "conf" file are changed on the container "conf" file when restarted
-      - grafana-volume:/var/lib/grafana # mount Grafana-volume
+      - grafana-volume:/var/lib/grafana # mount grafana-volume
 
   influxdb:
     image: influxdb
@@ -94,6 +94,9 @@ You can use ```docker volume ls``` and ```docker network ls``` to list out your 
 ---
 
 # Testing your creations!
+Run ```docker compose up -d``` to run docker in detach mode and wait a few minutes.
+
+Run ```docker ps -a``` to list all of your docker containers and you can view the status of the containers you just created.
 
 Navigate to your containers. `<serverip:8086>` for InfluxDB and `<serverip:3000>` for Grafana. Unless you changed your ports like I did, then you should be good to go. I added all my services to my **Homepage** dashboard for easier navigation between all my services. I will make a post going over what Homepage is in a later post, but for now if you are interested, here is a GitHub link to [HomePage](https://github.com/gethomepage/homepage). Once inside your containers. Make sure you create a account in InfluxDB and the default username and password for Grafana is admin:admin. Once you are in your instances I highly recommend watching Christian Lempa's video [My new Proxmox Monitoring Tools: InfluxDB2 + Grafana](https://www.youtube.com/watch?v=f2eyVfCTLi0&t=403s) on what to do next. He goes over what I went through and MORE!
 
