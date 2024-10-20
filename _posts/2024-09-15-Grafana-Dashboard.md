@@ -40,33 +40,36 @@ services:
     container_name: grafana
     restart: always
     ports:
-      - 3089:3089 # left port is host, right port is container
+      - 3089:3089
     networks:
       - monitoring_network # mount network
     volumes:
-      - ./conf:/usr/share/grafana/conf # mount server "conf" file to the container "conf" file, whatever changes are made to the server "conf" file are changed on the container "conf" file when restarted
-      - grafana-volume:/var/lib/grafana # mount grafana-volume
+      - ./conf:/usr/share/grafana/conf # mount server "conf" file to the container "conf" file, whatever changes are made to the server "conf" file are changed on the container "conf" file when retarted
+      - grafana-volume:/var/lib/grafana # mount grafna-volume
 
   influxdb:
     image: influxdb
     container_name: influxdb
     restart: always
     ports:
-      - 8086:8086 
+      - 8086:8086
       - 8089:8089/udp
     networks:
-      - monitoring_network # mount network
+      - monitoring_network #mount network
     volumes:
-      - influxdb-volume:/var/lib/influxdb # mount influxdb-volume
+      - influxdb-volume-config:/etc/influxdb2
+      - influxdb-volume:/var/lib/influxdb2 # mount influxdb-volume
 
 networks:
   monitoring_network:
-    external: true # Use this when the network is already created
+    external: true # Use this when the network is already created using <docker network create "name">
 
 volumes:
   grafana-volume:
-    external: true # Use this when the volume is already created
+    external: true # Use this when the volume is already created using <docker volume create "name">
   influxdb-volume:
+    external: true
+  influxdb-volume-config:
     external: true
 ```
 > Please note that the `./conf` volume on the Grafana service was necessary for me because I needed to change the default port of 3000 to 3089 inside the `default.ini` file of the container. So if you do not need to change the port, use the recommended port option of 3000 for the Grafana service and remove the `./conf` volume.
@@ -84,6 +87,9 @@ docker volume create grafana-volume
 ```
 ```bash
 docker volume create influxdb-volume
+```
+```bash
+docker volume create influxdb-volume-config
 ```
 ```bash 
 docker network create monitoring_network
