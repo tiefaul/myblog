@@ -10,8 +10,8 @@
     <span class="na">networks</span><span class="pi">:</span>
       <span class="pi">-</span> <span class="s">monitoring_network</span> <span class="c1"># mount network</span>
     <span class="na">volumes</span><span class="pi">:</span>
-      <span class="pi">-</span> <span class="s">./conf:/usr/share/grafana/conf</span> <span class="c1"># mount server "conf" file to the container "conf" file, whatever changes are made to the server "conf" file are changed on the container "conf" file when retarted</span>
-      <span class="pi">-</span> <span class="s">grafana-volume:/var/lib/grafana</span> <span class="c1"># mount grafna-volume</span>
+      <span class="pi">-</span> <span class="s">./conf:/usr/share/grafana/conf</span> <span class="c1"># mount server "conf" file to the container "conf" file, whatever changes are made to the server "conf" file are changed on the container "conf" file when restarted</span>
+      <span class="pi">-</span> <span class="s">grafana-volume:/var/lib/grafana</span> <span class="c1"># mount grafana-volume</span>
 
   <span class="na">influxdb</span><span class="pi">:</span>
     <span class="na">image</span><span class="pi">:</span> <span class="s">influxdb</span>
