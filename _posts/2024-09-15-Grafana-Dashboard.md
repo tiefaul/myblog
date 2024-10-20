@@ -44,8 +44,8 @@ services:
     networks:
       - monitoring_network # mount network
     volumes:
-      - ./conf:/usr/share/grafana/conf # mount server "conf" file to the container "conf" file, whatever changes are made to the server "conf" file are changed on the container "conf" file when retarted
-      - grafana-volume:/var/lib/grafana # mount grafna-volume
+      - ./conf:/usr/share/grafana/conf # mount server "conf" file to the container "conf" file, whatever changes are made to the server "conf" file are changed on the container "conf" file when restarted
+      - grafana-volume:/var/lib/grafana # mount grafana-volume
 
   influxdb:
     image: influxdb
