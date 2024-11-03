@@ -14,7 +14,7 @@ In this post, I will discuss with you how I integrated these tools to monitor my
 
 ---
 
-# Creating the docker compose
+## Creating the docker compose
 
 After reading various documents, reddit post, videos, etc. I came to a conclusion that I would create docker containers for both Grafana and InfluxDB. Given that both have verified publishers for their containers on [Docker Hub](https://hub.docker.com/) I felt comfortable moving forward with my decision. 
 
@@ -76,7 +76,7 @@ volumes:
 
 ---
 
-# Create your volume and network
+## Create your volume and network
 
 In our compose file we set the network and volumes to `external: true` meaning we have to create these resources ourselves or else the compose file will error out because it cannot find the volume or network.
 
@@ -99,7 +99,7 @@ You can use ```docker volume ls``` and ```docker network ls``` to list out your 
 
 ---
 
-# Testing your creations!
+## Testing your creations!
 Run ```docker compose up -d``` to run docker in detach mode and wait a few minutes.
 
 Run ```docker ps -a``` to list all of your docker containers and you can view the status of the containers you just created.
@@ -108,6 +108,6 @@ Navigate to your containers. `<serverip:8086>` for InfluxDB and `<serverip:3000>
 
 ---
 
-# What should I do now?
+## What should I do now?
 
 Just like you I was confused on how everything worked and what to do next. When watching Christian Lempa's video, I imported the [Proxmox Cluster [Flux]](https://grafana.com/grafana/dashboards/15356-proxmox-cluster-flux/) dashboard from the [Grafana website](https://grafana.com/), but I felt as if I wasn't learning anything from doing that, even though the dashboard is great and amazing and provides me with everything I want from a monitoring standpoint. My next objective in this learning journey is to create my own dashboard, learn a little bit of flux, and see how everything pans out. 
