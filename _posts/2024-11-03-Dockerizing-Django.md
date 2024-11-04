@@ -95,6 +95,7 @@ server {
     }
 }
 ```
+---
 ## Creating the Docker Compose
 Docker Compose is a tool that simplifies the process of managing multi-container Docker applications. With Docker Compose, you can define all the services, networks, and volumes your app needs in a single ```docker-compose.yaml``` file. This will specify how each container should be configured, such as which Docker image to use, any environment variables, and how containers should interact.
 
