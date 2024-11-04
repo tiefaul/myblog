@@ -20,6 +20,8 @@ As I mentioned earlier, diving into Django is a great way to get comfortable wit
 
 After some research, I decided to follow the [Real Python tutorial on creating a Django to-do list](https://realpython.com/django-todo-lists/). If you’re interested in learning alongside me, I encourage you to try building this application first. Then, come back here to see how we can containerize it with Docker and deploy it locally on your home network.
 
+---
+
 ## Creating a Dockerfile
 A Dockerfile is a script containing a series of instructions that tells Docker how to build a custom container image. You specify things like the base image (e.g., Python or Ubuntu), the application code, required libraries, and any setup commands needed to get your app up and running. When you build this file, Docker uses these instructions to create a container image that you can deploy consistently across different environments.
 
