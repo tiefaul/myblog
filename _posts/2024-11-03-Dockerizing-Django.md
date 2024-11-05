@@ -115,8 +115,6 @@ services:
       - ./db.sqlite3:/app/db.sqlite3 # Mount the SQLite database file if you want to persist it.
     expose: # Expose is only used to connect to other services in the Dockerfile
       - "8000"
-    env_file:
-      - path: ./.env
     
   nginx:
     image: nginx:latest
