@@ -70,7 +70,7 @@ By default Django's development server, ```python manage.py runserver```, is int
 
 Gunicorn is bridge between Django and the web, efficiently handling multiple incoming requests by spawning multiple worker processes that manage these requests concurrently. This makes the app more responsive and capable of handling higher traffic volumes. 
 
-In a typical setup, Gunicorn is often used together with a web server like Nginx. Nginx handles static file serving, load balancing, and reverse proxying to Gunicorn, Which then processes the actual application requests. This combination helps ensure performance, stability, and security for Django applications in production environments
+In a typical setup, Gunicorn is often used together with a web server like Nginx. Nginx handles static file serving, load balancing, and reverse proxying to Gunicorn, which then processes the actual application requests. This combination helps ensure performance, stability, and security for Django applications in production environments
 
 Here is an example of a Nginx config for Gunicorn:
 ```yaml
