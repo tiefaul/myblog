@@ -76,7 +76,7 @@ This process is straightforward, yet it can be a game-changer in projects that i
 
 ### Executing and Results
 
-Running the script is a simple as executing:
+Running the script is as simple as executing:
 
 ```bash
 python script_name.py # if using windows
