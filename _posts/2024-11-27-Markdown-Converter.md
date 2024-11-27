@@ -7,7 +7,7 @@ tags: django markdown automation
 categories: python
 ---
 
-## Automating Markdown To HTML Using Python-Markdown
+## Automating Markdown to HTML Using Python-Markdown
 
 As someone who enjoys simplifying workflows, I recently automated a process for one of my Django projects to convert Markdown files into HTML. This is small but effective script saves time and ensures consistency when dealing with Markdown-based content. In this post, I will walk you through the steps from setting up the environment to running the script.
 
