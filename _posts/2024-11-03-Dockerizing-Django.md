@@ -3,8 +3,8 @@ layout: post
 title: Dockerizing Django Application
 date: 2024-11-03 15:38:00
 description: Using docker compose to containerize my Django application
-tags: docker-compose django python nginx
-categories: docker 
+tags: docker-compose django docker nginx
+categories: python
 ---
 
 Starting a new project is always exciting, especially when it brings together technologies like Django and Docker. For this project, I decided to build a to-do application using Django as the web framework. To simplify development and ensure consistency across environments, I set up a Docker container and a Docker Compose file. This setup allows for seamless deployment, making it as simple as running a single command to launch the app.
