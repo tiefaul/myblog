@@ -1,25 +1,25 @@
 ---
 layout: post
-title: Dockerizing Django Application
+title: Markdown Convertor
 date: 2024-11-27 15:02:00
-description: Using docker compose to containerize my Django application
+description: Creating a Markdown to HTML convertor 
 tags: django markdown automation
 categories: python
 ---
 
-# Automating Markdown To HTML Using Python-Markdown
+## Automating Markdown To HTML Using Python-Markdown
 
 As someone who enjoys simplifying workflows, I recently automated a process for one of my Django projects to convert Markdown files into HTML. This is small but effective script saves time and ensures consistency when dealing with Markdown-based content. In this post, I will walk you through the steps from setting up the environment to running the script.
 
 ---
 
-## Why automate Markdown Conversion?
+### Why automate Markdown Conversion?
 
 Markdown is a lightweight markup language that is easy to write and widely used for documentation, blogs, and other text-based content. However, in web projects like Django, this content often needs to be converted into HTML for rendering in a browser. Automating this conversion eliminates repetitive tasks and ensures a smooth workflow.
 
 ---
 
-## Getting Started: Setting up the Environment
+### Getting Started: Setting up the Environment
 
 Before writing the script. I set up my project environment using ```pipenv```. This tool is excellent for managing Python dependencies and keeping environments clean.
 
@@ -39,7 +39,7 @@ This automatically updates the ```Pipfile.lock``` to include the library, ensuri
 
 ---
 
-## The Automation Script
+### The Automation Script
 
 Here is the Python script I created to perform the conversion:
 
@@ -58,7 +58,7 @@ with open('path/to/store/mdfile/example.html', 'w') as f:
     f.write(html_content)
 ```
 
-### How it Works:
+#### How it Works:
 
 1. Read the Markdown File:
 
@@ -76,7 +76,7 @@ This process is straightforward, yet it can be a game-changer in projects that i
 
 ---
 
-## Executing and Results
+### Executing and Results
 
 Running the script is a simple as executing:
 
