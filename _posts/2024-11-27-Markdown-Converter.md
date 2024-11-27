@@ -11,8 +11,6 @@ categories: python
 
 As someone who enjoys simplifying workflows, I recently automated a process for one of my Django projects to convert Markdown files into HTML. This is small but effective script saves time and ensures consistency when dealing with Markdown-based content. In this post, I will walk you through the steps from setting up the environment to running the script.
 
----
-
 ### Why automate Markdown Conversion?
 
 Markdown is a lightweight markup language that is easy to write and widely used for documentation, blogs, and other text-based content. However, in web projects like Django, this content often needs to be converted into HTML for rendering in a browser. Automating this conversion eliminates repetitive tasks and ensures a smooth workflow.
