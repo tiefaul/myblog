@@ -103,7 +103,7 @@ jobs:
 
 ## Setting up the Workflow
 
-To enable this workflow for my project. I had to create a `.github/workflows` directory in my project's root folder. This is where I stored the YAML file for the workflow. Once committed, GitHub automatically recognized and executed the workflow upon a bush to the `main` branch.
+To enable this workflow for my project. I had to create a `.github/workflows` directory in my project's root folder. This is where I stored the YAML file for the workflow. Once committed, GitHub automatically recognized and executed the workflow upon a push to the `main` branch.
 
 ## Reflection
 
