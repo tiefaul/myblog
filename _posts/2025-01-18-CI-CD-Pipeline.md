@@ -3,8 +3,8 @@ layout: post
 title: Building and Deploying a CI/CD Pipeline for My Azure Web App
 date: 2025-01-18 22:37:00
 description: Creating a Markdown to HTML convertor 
-tags: django markdown automation
-categories: yaml github devops
+tags: devops yaml automation
+categories: github
 ---
 
 Today, I accomplished a significant milestone. I created a CI/CD pipeline for my Azure Web App. This project taught me a great deal about [GitHub Actions](https://docs.github.com/en/actions), [GitHub Packages](https://docs.github.com/en/packages), and their role in building and deploying containerized applications. Here I'll walk you through the process, share the GitHub workflow I used, and explain some key concepts to provide clarity for those interested in DevOps practices.
