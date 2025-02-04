@@ -25,8 +25,28 @@ Once the PostgreSQL server was created, I navigated to:
 - **Connection Name**: Choose any descriptive name for your connection.  
 - **Subscription**: Select your Azure subscription.  
 
-After creating the Service Connector, I viewed the **Sample Code** tab, which redirected me to the Microsoft Learn documentation. The documentation provides detailed instructions on how to use a connection string to connect your application to the database.  
+After creating the Service Connector, I viewed the **Sample Code** tab, which redirected me to the Microsoft Learn documentation. The documentation provides detailed instructions on how to use a connection string to connect your application to the database.
 
+Important note: When you created the service connector, Azure already set up environment variables for you in your Azure Web App. To connect to it using django you need to edit your `settings.py` and add in those environment variables to the `DATABASES` config. For example:
+
+```python3
+host = os.getenv('AZURE_POSTGRESQL_HOST')
+user = os.getenv('AZURE_POSTGRESQL_USER')
+password = os.getenv('AZURE_POSTGRESQL_PASSWORD')
+database = os.getenv('AZURE_POSTGRESQL_NAME')
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': database,
+        'USER': user,
+        'PASSWORD': password,
+        'HOST': host,
+        'PORT': '5432',  # Port is 5432 by default 
+        'OPTIONS': {'sslmode': 'require'},
+    }
+}
+```
 > **Pro Tip**: Always follow security best practices by storing sensitive information, such as database credentials, in environment variables instead of hardcoding them into your application.  
 
 ## Step 2: Configure Django  
