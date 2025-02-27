@@ -9,7 +9,7 @@ categories: azure
 Managing cloud costs is crucial, and Azure provides tools to automate actions when your budget reaches a predefined threshold. In this guide, I'll walk through how I automated the shutdown of my Azure web app when my budget hit a certain limit.
 
 ## Step 1: Create an Automation Runbook
-Azure Automation Runbooks allow us to execute scripts automatically. We will create a Runbook that stops the web app.
+Azure Automation **Runbooks** allow us to execute scripts automatically. We will create a **Runbook** that stops the web app.
 1. Click the menu (☰) in the Azure Portal.
 2. Select **Create a Resource**.
 3. Search for **Automation Accounts** and create one.
@@ -33,7 +33,7 @@ Stop-AzWebApp -ResourceGroupName $ResourceGroupName -Name $WebAppName
 10. Click **Publish** to finalize the Runbook.
 
 ## Step 2: Create an Action Group
-An Action Group defines what happens when an alert is triggered.
+An **Action Group** defines what happens when an alert is triggered.
 1. Click the menu (☰) and go to Monitor.
 2 Navigate to Alerts.
 3. Select **Create Action Group**.
@@ -46,7 +46,7 @@ An Action Group defines what happens when an alert is triggered.
 6. Click **OK**, then **Create**.
 
 ## Step 3: Set Up a Budget
-Now, lets create a budget and configure it to trigger our **Action Group*.
+Now, lets create a budget and configure it to trigger our **Action Group**.
 1. Click the menu (☰) and navigate to **Cost Management + Billing**.
 2. Click on **Cost Management > Budgets**.
 3. Important: Change the scope to your **Subscription**.
