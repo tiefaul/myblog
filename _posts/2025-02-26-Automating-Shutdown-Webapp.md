@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Automating Azure Web App Shutdown When Budget Exceeds a Threshold
-date: 2025-01-26 16:23:00
+date: 2025-02-26 16:23:00
 description: Connecting Django App to Azure Postgresql Server
 tags: action-groups runbooks automation
 categories: azure
@@ -35,13 +35,13 @@ Stop-AzWebApp -ResourceGroupName $ResourceGroupName -Name $WebAppName
 ## Step 2: Create an Action Group
 An **Action Group** defines what happens when an alert is triggered.
 1. Click the menu (☰) and go to Monitor.
-2 Navigate to Alerts.
+2. Navigate to Alerts.
 3. Select **Create Action Group**.
 4. Fill in the required information.
 5. In the Actions tab:
     - Set **Action Type** to **Automation Runbook**.
-    - **Runbook** = Enabled
-    - **Runbook Source** = User
+    - **Runbook** > Enabled
+    - **Runbook Source** > User
     - Choose your **subscription**, **Automation account**, and **Runbook**.
 6. Click **OK**, then **Create**.
 
