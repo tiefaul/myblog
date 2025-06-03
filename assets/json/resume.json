@@ -109,6 +109,13 @@
       "issuer": "Microsoft",
       "url": "https://learn.microsoft.com/en-us/credentials/certifications/azure-administrator/?practice-assessment-type=certification",
       "icon": "fa-solid fa-certificate"
+    },
+    {
+      "name": "AWS Certified Cloud Practitioner",
+      "date": "2025-03-14",
+      "issuer": "Amazon",
+      "url": "https://aws.amazon.com/certification/certified-cloud-practitioner/",
+      "icon": "fa-solid fa-certificate"
     }
   ],
   "publications": [
