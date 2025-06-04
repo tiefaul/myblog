@@ -54,8 +54,8 @@ jobs:
         uses: docker/login-action@9780b0c442fbb1117ed29e0efdff1e18412f7567 # Logs into GitHub container registry
         with:
           registry: ghcr.io
-          username: github username
-          password: github secret for github token
+          username: ${{ github.actor }} # Github context variable that contains the username of the person running the workflow run
+          password: ${{ secrets.GITHUB_TOKEN }} # This token is generated with every workflow run. Permissions can be modified by using a `permissions:` block within the workflow.
 
       - name: Lowercase the repo name
         run: echo "REPO=${GITHUB_REPOSITORY,,}" >>${GITHUB_ENV} # Ensure repo name is in lowercase
@@ -74,15 +74,15 @@ jobs:
 
     steps:
       - name: Lowercase the repo name
-        run: echo "REPO=${GITHUB_REPOSITORY,,}" >>${GITHUB_ENV}
+        run: echo "REPO=${GITHUB_REPOSITORY,,}" >>${GITHUB_ENV} # Google "Github Actions default environment variables". The double `,,` lowercase the repository name.
 
       - name: Deploy to Azure Web App
         id: deploy-to-webapp
         uses: azure/webapps-deploy@2fdd5c3ebb4e540834e86ecc1f6fdcd5539023ee # Deploys the Docker image from GitHub Packages to Azure Web App
         with:
-          app-name: azure web app name
-          publish-profile: secret for azure publish-profile # Store this in GitHub secrets
-          images: 'ghcr.io/repo:reposha'
+          app-name: ${{ env.AZURE_WEBAPP_NAME }} # References the `env:` block at the beginning of the workflow.
+          publish-profile:  ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }} # Create a secret called AZURE_WEBAPP_PUBLISH_PROFILE inside of Github Secrets. This can be found in the repo settings.
+          images: 'ghcr.io/${{ env.REPO }}:${{ github.sha }}'
 ```
 
 ## WorkFlow Rundown
