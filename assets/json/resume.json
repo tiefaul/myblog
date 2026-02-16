@@ -14,49 +14,22 @@
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "location": "Princeton University, NJ",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity", "Description 2."]
+      "name": "ATA-LLC",
+      "position": "System Administrator",
+      "location": "Williamsburg, VA",
+      "startDate": "2025-08-01",
+      "endDate": "",
+      "summary": "Administer and maintain multiple enterprise services including Jira, Confluence, Mattermost, GitLab, ArgoCD, SonarQube, and Keycloak. Develop Python automation scripts to integrate and streamline workflows across platforms, improving operational efficiency and reducing manual effort. Troubleshoot and resolve AppGate VPN connectivity and authentication issues to ensure secure and reliable remote access for users.",
+      "highlights": ["Administration", "Automation"]
     },
     {
-      "name": "California Institute of Technology",
-      "position": "Visiting Professor",
-      "location": "Pasadena, California, US",
-      "startDate": "1933-01-01",
-      "endDate": "1933-01-01",
-      "summary": "",
-      "highlights": ["Description 1.", "Description 2."]
-    },
-    {
-      "name": "Kaiser Wilhelm Institute for Physics",
-      "position": "Director",
-      "location": "Berlin, Germany",
-      "startDate": "1917-01-01",
-      "endDate": "1933-01-01",
-      "summary": "",
-      "highlights": []
-    },
-    {
-      "name": "Karl-Ferdinand University",
-      "position": "Professor of Theoretical Physics",
-      "location": "Prague, Czechoslovakia",
-      "startDate": "1911-01-01",
-      "endDate": "1917-01-01",
-      "summary": "",
-      "highlights": []
-    },
-    {
-      "name": "University of Zurich",
-      "position": "Associate Professor of Theoretical Physics",
-      "location": "Zurich, Switzerland",
-      "startDate": "1909-01-01",
-      "endDate": "1911-01-01",
-      "summary": "",
-      "highlights": []
+      "name": "United States Army Reserves",
+      "position": "Information Technology Specialist",
+      "location": "Williamsburg, VA",
+      "startDate": "2019-10-01",
+      "endDate": "",
+      "summary": "Serving as an Information Technology Specialist responsible for administering, maintaining, and securing enterprise network infrastructure in both garrison and field environments. Managed Windows and Linux servers, Active Directory, user accounts, and endpoint systems while ensuring system availability and compliance with DoD security standards. Provided Tier 1–3 technical support, troubleshot network and hardware issues, and deployed tactical communications equipment to support mission operations. Collaborated with cross-functional teams to build, configure, and maintain secure, reliable IT environments under high-pressure conditions.",
+      "highlights": ["DoD Security", "Networking"]
     }
   ],
   "volunteer": [
