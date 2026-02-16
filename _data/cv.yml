@@ -75,38 +75,52 @@ cv:
         icon: fa-solid fa-tag
         keywords: "Proxmox, Wireguard, Homepage, Pi-hole, NAS, Docker, Kubernetes"
 
+      - name: AI 
+        icon:  fa-solid fa-tag
+        keywords: "Gemini, OpenAI, OpenCode, Automation, Integration, AntiGravity"
+
     Certificates:
       - name: CompTIA A+
         date: 2022-07-14
         issuer: CompTIA
-        icon: fa-solid fa-location-dot
+        icon: fa-solid fa-certificate
 
       - name: CompTIA Network+
         date: 2023-04-08
         issuer: CompTIA
-        icon: fa-solid fa-tag
+        icon: fa-solid fa-certificate
 
       - name: CompTIA Security+
         date: 2022-01-20
         issuer: CompTIA
-        icon: fa-solid fa-envelope
+        icon: fa-solid fa-certificate
 
       - name: CompTIA CySA+
         date: 2024-05-24
         issuer: CompTIA
-        icon: fa-solid fa-location-dot
+        icon: fa-solid fa-certificate
 
       - name: Azure Fundamentals
         date: 2022-03-24
         issuer: Microsoft
-        icon: fa-solid fa-tag
+        icon: fa-solid fa-certificate
 
       - name: Azure Administrator Associate
         date: 2024-11-03
         issuer: Microsoft
-        icon: fa-solid fa-envelope
+        icon: fa-solid fa-certificate
 
       - name: AWS Certified Cloud Practitioner
         date: 2025-03-14
         issuer: Amazon
-        icon: fa-solid fa-location-dot
+        icon: fa-solid fa-certificate
+      
+      - name: ITIL Foundations
+        date: 2025-11-02
+        issuer: ITIL
+        icon: fa-solid fa-certificate
+
+      - name: Linux Essentials
+        date: 2025-02-07
+        issuer: Linux Professional Institute
+        icon: fa-solid fa-certificate

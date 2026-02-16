@@ -25,12 +25,16 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
-Hello! I’m Tyler, an IT professional with a passion for technology and a love for exploration. I was born in Tennessee but spent most of my life in the sunny state of Florida. My journey in the field of Information Technology began during my active duty service in the Army from 2019 to 2025, where I served as a 25B, an Information Technology Specialist.
+Hi, I’m Tyler, a System Administrator and technology enthusiast with a passion for building, automating, and continuously improving the systems that power modern infrastructure.
 
-During my time in the military, I had the incredible opportunity to travel across Europe and Asia, visiting seven different countries. These experiences not only broadened my horizons but also deepened my appreciation for different cultures and the world at large.
+I was born in Tennessee and raised in Florida, but my professional journey truly began during my active duty service in the U.S. Army from 2019 to 2025, where I served as a 25B (Information Technology Specialist). The Army gave me hands-on experience managing enterprise systems, troubleshooting complex environments, and operating in high-pressure situations where reliability and precision mattered. It also gave me the opportunity to travel throughout Europe and Asia, visiting seven countries and gaining a broader perspective on both technology and the world.
 
-When I’m not immersed in IT projects or working on my homelab, you can find me enjoying a variety of hobbies. I love playing basketball and swimming, both of which keep me active and energized. Golfing is another pastime I enjoy, even though I’m still perfecting my swing! Hiking and exploring new places are activities I cherish, as they allow me to connect with nature and satisfy my adventurous spirit.
+Today, I work as a System Administrator, where I focus on maintaining and improving platform services that teams rely on every day. I have a strong interest in automation and use Python to streamline operations and reduce manual overhead. I’ve built automation workflows and integrations for tools like Jira, Keycloak, Confluence, SonarQube, and ArgoCD; helping improve efficiency, consistency, and reliability across environments.
 
-I’m passionate about continuous learning and enjoy diving into new IT challenges and technologies. Whether it’s a complex project or a simple experiment, I believe that each endeavor is an opportunity to grow and innovate.
+Outside of work, you’ll usually find me in my homelab experimenting with Kubernetes, containers, monitoring stacks, and new infrastructure tooling. I enjoy breaking things (intentionally), rebuilding them better, and documenting what I learn along the way.
 
-Thank you for visiting my website. I hope you find my projects and insights both informative and inspiring. Feel free to reach out if you have any questions or just want to connect!
+When I’m not behind a keyboard, I’m usually playing basketball, swimming, hiking, or exploring somewhere new. Staying active keeps me balanced, and I approach personal growth the same way I approach technology, with discipline, curiosity, and a drive to improve.
+
+I believe technology is best learned by building, and that every problem is an opportunity to design something better than before. This blog is where I document that journey, the wins, the lessons, and the experiments.
+
+Thanks for stopping by. If you’re into automation, infrastructure, or just enjoy talking tech, feel free to connect.
