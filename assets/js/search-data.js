@@ -30,7 +30,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-building-an-ai-chatbot-with-django-htmx-and-langflow",
+        },{id: "post-learning-nixos",
+        
+          title: "Learning NixOS",
+        
+        description: "My journey learning NixOS, Flakes, Home Manager, and Snowfall Lib.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/Learning-NixOS/";
+          
+        },
+      },{id: "post-building-an-ai-chatbot-with-django-htmx-and-langflow",
         
           title: "Building an AI Chatbot with Django, HTMX, and Langflow",
         
