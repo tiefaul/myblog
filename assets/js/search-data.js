@@ -30,7 +30,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-learning-nixos",
+        },{id: "post-lessons-learned-testing-fastapi-with-pytest",
+        
+          title: "Lessons Learned Testing FastAPI with Pytest",
+        
+        description: "Practical patterns I used to mock dependencies, organize fixtures, and test failure paths in FastAPI projects",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/FastAPI-Pytest-Lessons/";
+          
+        },
+      },{id: "post-learning-nixos",
         
           title: "Learning NixOS",
         
